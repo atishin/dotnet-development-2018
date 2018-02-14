@@ -1,0 +1,10 @@
+C:\Repos\KBTU\EFStudents\bin\Debug\netcoreapp2.0\EFStudents.deps.json
+C:\Repos\KBTU\EFStudents\bin\Debug\netcoreapp2.0\EFStudents.runtimeconfig.json
+C:\Repos\KBTU\EFStudents\bin\Debug\netcoreapp2.0\EFStudents.runtimeconfig.dev.json
+C:\Repos\KBTU\EFStudents\bin\Debug\netcoreapp2.0\EFStudents.dll
+C:\Repos\KBTU\EFStudents\bin\Debug\netcoreapp2.0\EFStudents.pdb
+C:\Repos\KBTU\EFStudents\obj\Debug\netcoreapp2.0\EFStudents.csproj.CoreCompileInputs.cache
+C:\Repos\KBTU\EFStudents\obj\Debug\netcoreapp2.0\EFStudents.AssemblyInfoInputs.cache
+C:\Repos\KBTU\EFStudents\obj\Debug\netcoreapp2.0\EFStudents.AssemblyInfo.cs
+C:\Repos\KBTU\EFStudents\obj\Debug\netcoreapp2.0\EFStudents.dll
+C:\Repos\KBTU\EFStudents\obj\Debug\netcoreapp2.0\EFStudents.pdb

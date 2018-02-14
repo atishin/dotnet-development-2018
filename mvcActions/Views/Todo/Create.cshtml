@@ -1,0 +1,17 @@
+@model todoApp.Models.Todo
+
+<h1>Create todo</h1>
+
+<form action="~/Todo/Create" method="POST">
+    <div class="input-group">
+        <span class="input-group-addon">Title</span>
+        <input class="form-control" name="Title">
+    </div>
+    <div>
+        <input type="checkbox" name="Done" id="Done" value="true"> <label for="Done">Done</label>
+    </div>
+    <div>
+        <input class="btn btn-success" type="submit">
+    </div>
+    
+</form>

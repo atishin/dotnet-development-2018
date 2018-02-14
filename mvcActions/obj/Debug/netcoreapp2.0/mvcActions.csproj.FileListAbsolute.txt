@@ -1,0 +1,12 @@
+c:\Repos\KBTU\mvcActions\bin\Debug\netcoreapp2.0\mvcActions.deps.json
+c:\Repos\KBTU\mvcActions\bin\Debug\netcoreapp2.0\mvcActions.runtimeconfig.json
+c:\Repos\KBTU\mvcActions\bin\Debug\netcoreapp2.0\mvcActions.runtimeconfig.dev.json
+c:\Repos\KBTU\mvcActions\bin\Debug\netcoreapp2.0\mvcActions.dll
+c:\Repos\KBTU\mvcActions\bin\Debug\netcoreapp2.0\mvcActions.pdb
+c:\Repos\KBTU\mvcActions\bin\Debug\netcoreapp2.0\todoApp.dll
+c:\Repos\KBTU\mvcActions\bin\Debug\netcoreapp2.0\todoApp.pdb
+c:\Repos\KBTU\mvcActions\obj\Debug\netcoreapp2.0\mvcActions.csproj.CoreCompileInputs.cache
+c:\Repos\KBTU\mvcActions\obj\Debug\netcoreapp2.0\mvcActions.AssemblyInfoInputs.cache
+c:\Repos\KBTU\mvcActions\obj\Debug\netcoreapp2.0\mvcActions.AssemblyInfo.cs
+c:\Repos\KBTU\mvcActions\obj\Debug\netcoreapp2.0\mvcActions.dll
+c:\Repos\KBTU\mvcActions\obj\Debug\netcoreapp2.0\mvcActions.pdb

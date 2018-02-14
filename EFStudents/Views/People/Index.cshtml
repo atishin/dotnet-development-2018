@@ -1,0 +1,26 @@
+@using EFStudents.Models.Database
+@model IEnumerable<Person>
+
+<a href="~/People/Add">Create new</a>
+
+<table style="width: 100%">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Actions</th>
+    </tr>
+    @foreach(var person in Model) {
+       <tr>
+        <td>@person.Id</td>
+        <td>@person.Name</td>
+        <td>@person.Age</td>
+        <td>
+            <form action="~/People/Remove" method="POST">
+                <input type="hidden" value="@person.Id" name="Id">
+                <input type="submit" value="Delete">
+            </form>
+        </td>
+    </tr> 
+    }
+</table>
