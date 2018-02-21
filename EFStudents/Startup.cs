@@ -25,8 +25,8 @@ namespace EFStudents
         {
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                    options.UseSqlServer(
-                        Configuration.GetConnectionString("DefaultConnection")
+                    options.UseSqlite(
+                        Configuration.GetConnectionString("DefaultConnectionSqlite")
                     ));
 
             services.AddMvc();

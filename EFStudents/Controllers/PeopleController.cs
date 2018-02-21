@@ -54,5 +54,26 @@ namespace EFStudents.Controllers
             return Redirect("~/People");
         }
 
+        public IActionResult AddDocument()
+        {
+            var document = new Document()
+            {
+                Name = "newDoc",
+                PersonId = 1
+            };
+            context.Documents.Add(document);
+
+
+
+            var person = context.People.First();
+
+            person.Documents.Clear();
+
+            // person.Documents.Add(document);
+
+            context.SaveChanges();
+            return View();
+        }
+
     }
 }

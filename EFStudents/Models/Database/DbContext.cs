@@ -10,6 +10,7 @@ namespace EFStudents.Models.Database
         }
 
         public DbSet<Person> People { get; set; }
+        public DbSet<Document> Documents { get; set; }
     }
 
     public static class DbInitializer

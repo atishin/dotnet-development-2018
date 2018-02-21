@@ -1,17 +1,17 @@
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EFStudents.Models.Database
 {
-    public class Person
+    public class Document
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Age { get; set; }
-        public string UID { get; set; }
 
-        public ICollection<Document> Documents { get; set; }
+        [ForeignKey("Person")]
+        public int PersonId { get; set; }
+
+        public Person Person { get; set; }
     }
 }
